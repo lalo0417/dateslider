@@ -1,0 +1,46 @@
+.bar.bar-dark .title {
+	margin-top: -10px;
+}
+
+.bar-header {
+	height: 50px !important;
+}
+
+.pane .slider {
+	margin-top: 64px;
+	border-top: 1px solid #e8e8e8;
+	background-color: #eee;
+	height: 50px;
+	padding-top: 5px;
+}
+
+.weekday_badge {
+	width: 35px;
+	height: 35px;
+	color: #86030a;
+	padding: 7px 0px 7px 9.5px;
+	margin-left: 4.25%;
+	margin-top: 3px;
+	float: left;
+}
+
+.weekday_badge.active {
+	border-radius: 50%;
+	background-color: red;
+	color: white;
+}
+
+.header_date {
+	font-size: 10px;
+	text-align: center;
+}
+
+[ng\:cloak],
+[ng-cloak],
+.ng-cloak {
+	display: none !important;
+}
+
+ion-slide-box{
+	text-align: center;
+}

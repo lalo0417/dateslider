@@ -1,0 +1,23 @@
+<ion-view view-title="Dashboard">
+	<ion-slide-box on-slide-changed="slideChanged(index)" show-pager="false">
+		<ion-slide ng-cloak>
+			<div class="weekday_badge" ng-class="{active: d.selected}" ng-repeat="d in dates[0]" ng-click="selectDay(d)">{{d.weekday}}</div>
+		</ion-slide>
+
+		<ion-slide ng-cloak>
+			<div class="weekday_badge" ng-class="{active: d.selected}" ng-repeat="d in dates[1]" ng-click="selectDay(d)">{{d.weekday}}</div>
+		</ion-slide>
+		<ion-slide ng-cloak>
+			<div class="weekday_badge" ng-class="{active: d.selected}" ng-repeat="d in dates[2]" ng-click="selectDay(d)">{{d.weekday}}</div>
+		</ion-slide>
+		<ion-slide ng-cloak>
+			<div class="weekday_badge" ng-class="{active: d.selected}" ng-repeat="d in dates[3]" ng-click="selectDay(d)">{{d.weekday}}</div>
+		</ion-slide>
+
+	</ion-slide-box>
+	<ion-content style="margin-top:60px; padding:10px;">
+		<div align="center" class="header_date">
+			{{date |date:'dd.MM.yyyy'}}
+		</div>
+	</ion-content>
+</ion-view>
